@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: o;
+    background-color: rgb(14, 13, 13)
+}
+
+h1 {
+    font-size: 3.5em;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 2.7em;
+    color: aliceblue;
+}
+
+h3 {
+    font-size: 2em;
+    color: aliceblue;
+}
+
+p {
+    font-size: 1.25em;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    color: aliceblue;
+}
+
+li {
+    font-size: 1.25em;
+    color: aliceblue;
+}
+
+
+
+
+footer {
+    background-color: rgb(233, 211, 12);
+}
+
+footer p {
+    margin: 0;
+    color: rgb(160, 8, 8);
+
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}

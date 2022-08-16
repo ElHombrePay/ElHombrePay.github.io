@@ -1,0 +1,44 @@
+/* estilos de la seccion instalaciones*/
+
+.mapa iframe {
+    width: 45vh;
+    margin: 10px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.Como h1 {
+    margin: 10px 5px;
+    text-align: center;
+    background-color: yellow;
+    color: rgb(187, 3, 3);
+}
+
+.titulo {
+    text-align: center;
+    background-color: yellow;
+    color: rgb(187, 3, 3);
+}
+
+.maquinas {
+    margin: 10PX;
+    background-color: rgb(160, 8, 8);
+
+}
+
+.maquinas p {
+    text-align: center;
+}
+
+.maquinas img {
+    width: 40vh;
+    margin: 3vh;
+}
+
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
