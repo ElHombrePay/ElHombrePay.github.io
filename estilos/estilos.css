@@ -1,11 +1,13 @@
 header {
   background-color: #daba08;
   margin: auto;
-  padding: auto; }
+  padding: auto;
+}
 
 .logo img {
   width: 80%;
-  margin: 5% 0% 10% 10%; }
+  margin: 5% 0% 10% 10%;
+}
 
 .arriba button {
   color: aliceblue;
@@ -14,36 +16,48 @@ header {
   border: 2px solid rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  margin: 2%; }
+  margin: 2%;
+}
 
 .menu {
   display: grid;
-  grid-template-columns: auto auto; }
+  grid-template-columns: auto auto;
+}
 
 .arriba {
   margin: 0% 15%;
   padding: 0% 20% 0% 0%;
   display: grid;
-  grid-template-columns: 150%; }
+  grid-template-columns: 150%;
+}
 
 .secuencia {
   animation-name: coder;
   animation-duration: 2s;
-  animation-iteration-count: 5; }
+  animation-iteration-count: 5;
+}
 
 @keyframes coder {
   0% {
-    opacity: 1; }
+    opacity: 1;
+  }
+
   50% {
-    opacity: 0; }
+    opacity: 0;
+  }
+
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 .color-1 {
-  color: #cf0c0c; }
+  color: #cf0c0c;
+}
 
 .color-2 {
-  color: #e9d30c; }
+  color: #e9d30c;
+}
 
 .boton {
   font-size: 1.5em;
@@ -53,14 +67,17 @@ header {
   border: 2px solid rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   color: aliceblue;
-  background-color: #a10d0d; }
+  background-color: #a00808;
+}
 
 button:hover {
-  background-color: #ca0404; }
+  background-color: #ca0404;
+}
 
 .container {
   max-width: auto;
-  margin: auto; }
+  margin: auto;
+}
 
 .lema {
   display: flex;
@@ -73,53 +90,66 @@ button:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border-radius: 5%; }
+  border-radius: 5%;
+}
 
 .somos-fg {
   text-align: center;
-  margin: auto; }
+  margin: auto;
+}
 
 #STAFF {
   background-color: #a10d0d;
   text-align: center;
-  border-radius: 5%; }
+  border-radius: 5%;
+}
 
 #STAFF .container {
-  padding: 150px 12px; }
+  padding: 150px 12px;
+}
 
 #STAFF p {
-  display: none; }
+  display: none;
+}
 
 #STAFF h2 {
   margin-top: 0;
-  color: black; }
+  color: black;
+}
 
 #STAFF h3 {
-  color: lavender; }
+  color: lavender;
+}
 
 #STAFF .carta {
   background-position: center center;
   background-size: cover;
   padding: 50px;
   margin: 20px;
-  border-radius: 5%; }
+  border-radius: 5%;
+}
 
 .carta:first-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("imagenes-FG/gym.jpg"); }
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("imagenes-FG/gym.jpg");
+}
 
 .carta:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("imagenes-FG/gym2.jfif"); }
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("imagenes-FG/gym2.jfif");
+}
 
 .carta:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("imagenes-FG/gym3.webp"); }
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("imagenes-FG/gym3.webp");
+}
 
 .caracteristicas .container {
   text-align: center;
-  padding: 100px 50px 0px 0px; }
+  padding: 100px 50px 0px 0px;
+}
 
 .caracteristicas li {
   margin: 15px 0px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .Entrenar {
   display: flex;
@@ -127,10 +157,12 @@ button:hover {
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 80vh; }
+  height: 80vh;
+}
 
 .Entrenar h2 {
-  font-size: 9vw; }
+  font-size: 9vw;
+}
 
 .Entrenar button {
   font-size: 7vw;
@@ -140,181 +172,223 @@ button:hover {
   border: 2px solid rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   color: aliceblue;
-  background-color: #a10d0d; }
+  background-color: #a00808;
+}
 
 /* estilos de la seccion instalaciones*/
 .mapa iframe {
   width: 45vh;
-  margin: 10px; }
+  margin: 10px;
+}
 
 .grids {
   display: grid;
-  grid-template-columns: auto; }
+  grid-template-columns: auto;
+}
 
 .Como h1 {
   margin: 10px 5px;
   text-align: center;
   background-color: yellow;
-  color: #bb0303; }
+  color: #bb0303;
+}
 
 .titulo {
   text-align: center;
   background-color: yellow;
-  color: #bb0303; }
+  color: #bb0303;
+}
 
 .maquinas {
   margin: 10PX;
-  background-color: #a00808; }
+  background-color: #a00808;
+}
 
 .maquinas p {
-  text-align: center; }
+  text-align: center;
+}
 
 .maquinas img {
   width: 40vh;
-  margin: 3vh; }
+  margin: 3vh;
+}
 
 .carousel-item img {
   height: 50vh;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 /* estilos de la seccion productos */
 .catalogo .container {
   padding: auto;
-  margin: auto; }
+  margin: auto;
+}
 
 .producto h3 {
-  text-align: center; }
+  text-align: center;
+}
 
 .producto button:hover {
-  background-color: yellow; }
+  background-color: yellow;
+}
 
 .producto {
-  margin: 30px 0px; }
+  margin: 30px 0px;
+}
 
 .producto img {
   align-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .producto1 {
   background-color: #a00808;
   border-radius: 0% 15%;
   margin: 30px 0px;
-  padding: auto; }
+  padding: auto;
+}
 
 .producto1 p {
-  display: none; }
+  display: none;
+}
 
 .producto1 button {
   margin: 0px 0px 10px 80px;
   background-color: #e9d30c;
   color: black;
-  border-radius: 0% 20%; }
+  border-radius: 0% 20%;
+}
 
 .producto2 {
   background-color: #a00808;
   border-radius: 15% 0%;
   margin: 30px 0px;
-  padding: auto; }
+  padding: auto;
+}
 
 .producto2 img {
-  margin: 0px 0px 0px 50px; }
+  margin: 0px 0px 0px 50px;
+}
 
 .producto2 button {
   margin: 0px 0px 10px 80px;
   background-color: #e9d30c;
   color: black;
-  border-radius: 20% 0%; }
+  border-radius: 20% 0%;
+}
 
 .producto3 {
-  background-color: #daba08;
+  background-color: #a00808;
   border-radius: 0% 20%;
   margin: 30px 0px;
-  padding: auto; }
+  padding: auto;
+}
 
 .producto3 button {
   margin: 0px 0px 10px 80px;
   background-color: #e9d30c;
   color: black;
-  border-radius: 0% 20%; }
+  border-radius: 0% 20%;
+}
 
 .dropdown {
   margin: 0px 100px;
-  padding: auto; }
+  padding: auto;
+}
 
 /* estilos de la seccion registro */
 .contacto1 {
-  color: aliceblue; }
+  color: aliceblue;
+}
 
 .mb-3 {
-  padding: 5% 10% 0% 5%; }
+  padding: 5% 10% 0% 5%;
+}
 
 .form-check {
-  padding: 0% 7%; }
+  padding: 0% 7%;
+}
 
 .btn-primary {
-  margin: 0% 5%; }
+  margin: 0% 5%;
+}
 
 /* estilos de la seccion rutinas */
 .rutinas {
   text-align: center;
-  margin: 10px 0px 0px 0px; }
+  margin: 10px 0px 0px 0px;
+}
 
 .ejercicios iframe {
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px; }
+  padding: 0px 0px 0px 0px;
+}
 
 .ejercicios {
   padding: 0%;
   margin: 20px 0px;
-  background-color: #a00808; }
+  background-color: #a00808;
+}
 
 .btn-primary {
   color: black;
-  background-color: #e9d30c; }
+  background-color: #e9d30c;
+}
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   margin: o;
-  background-color: #0e0d0d; }
+  background-color: #0e0d0d;
+}
 
 h1 {
   font-size: 3.5em;
-  color: aliceblue; }
+  color: aliceblue;
+}
 
 h2 {
   font-size: 2.7em;
-  color: aliceblue; }
+  color: aliceblue;
+}
 
 h3 {
   font-size: 2em;
-  color: aliceblue; }
+  color: aliceblue;
+}
 
 p {
   font-size: 1.25em;
-  color: aliceblue; }
+  color: aliceblue;
+}
 
 ul {
   list-style: none;
-  color: aliceblue; }
+  color: aliceblue;
+}
 
 li {
   font-size: 1.25em;
-  color: aliceblue; }
+  color: aliceblue;
+}
 
 footer {
-  background-color: #daba08; }
+  background-color: #daba08;
+}
 
 footer p {
   margin: 0;
-  color: #a00808; }
+  color: #a00808;
+}
 
 footer .container {
   height: 150px;
   display: flex;
   justify-content: center;
-  align-items: flex-end; }
+  align-items: flex-end;
+}
 
 /* movil */
 @media (min-width: 480px) {
@@ -322,7 +396,9 @@ footer .container {
     text-align: center;
     width: 50vh;
     padding: 5%;
-    margin: auto; }
+    margin: auto;
+  }
+
   .lema {
     display: flex;
     align-items: center;
@@ -332,44 +408,70 @@ footer .container {
     height: 70vh;
     width: 50vh;
     padding: 50%;
-    margin: 0%; }
+    margin: 0%;
+  }
+
   #STAFF {
     margin: 5%;
-    width: 90%; }
+    width: 90%;
+  }
+
   .caracteristicas li {
     padding: 5% 0%;
-    margin: 0% 0% 0% 10%; }
+    margin: 0% 0% 0% 10%;
+  }
+
   /* paginas productos */
   .producto button {
-    margin: 0vh 0vh 3vh 23vh; }
+    margin: 0vh 0vh 3vh 23vh;
+  }
+
   .producto img {
-    margin: 0vh 0vh 0vh 12vh; }
+    margin: 0vh 0vh 0vh 12vh;
+  }
+
   .producto2 img {
-    margin: 0vh 0vh 0vh 20vh; }
+    margin: 0vh 0vh 0vh 20vh;
+  }
+
   .dropdown {
-    margin: 0vh 25vh; }
+    margin: 0vh 25vh;
+  }
+
   /* paginas de productos */
   .ejercicios {
-    padding: 10vh; }
+    padding: 10vh;
+  }
+
   .ejercicios iframe {
     width: 60vh;
-    height: 40vh; }
+    height: 40vh;
+  }
+
   /* PAGINA DE INSTALACIONES */
   .mapa iframe {
     width: 65vh;
-    margin: 0px 0px 0px 30px; }
+    margin: 0px 0px 0px 30px;
+  }
+
   .maquinas img {
     width: 60vh;
-    margin: 5vh; }
+    margin: 5vh;
+  }
+
   .carousel-item img {
     height: 50vh;
-    object-fit: cover; } }
+    object-fit: cover;
+  }
+}
 
 /* tablet */
 @media (min-width: 720px) {
   .logo img {
     width: 30%;
-    margin: 5% 0% 10% 35%; }
+    margin: 5% 0% 10% 35%;
+  }
+
   .arriba button {
     color: aliceblue;
     background-color: #a00808;
@@ -377,60 +479,151 @@ footer .container {
     border: 2px solid rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     font-weight: bold;
-    margin: 0%; }
+    margin: 0%;
+  }
+
   .menu {
     padding: 0% 0% 10% 5%;
     display: grid;
-    grid-template-columns: var(2, 2); }
+    grid-template-columns: var(2, 2);
+  }
+
   .arriba {
     margin: 0% 15%;
     padding: 0% 25% 3% 0%;
-    display: grid; }
+    display: grid;
+  }
+
   .somos-fg {
-    margin: auto; }
+    margin: auto;
+  }
+
   /* paginas de productos */
   .ejercicios {
-    padding: 10vh; }
+    padding: 10vh;
+  }
+
   .ejercicios iframe {
     width: 100vh;
-    height: 60vh; }
+    height: 60vh;
+  }
+
   /* PAGINA DE INSTALACIONES */
   .mapa iframe {
     width: 100vh;
-    margin: 0px 0px 0px 30px; }
+    margin: 0px 0px 0px 30px;
+  }
+
   .maquinas img {
     width: 60vh;
-    margin: 0vh 0vh 3vh 25vh; }
+    margin: 0vh 0vh 3vh 25vh;
+  }
+
   .carousel-item img {
     height: 50vh;
-    object-fit: cover; } }
+    object-fit: cover;
+  }
+}
 
 @media (min-width: 1024px) {
   .somos-fg {
-    margin: auto; }
+    margin: auto;
+  }
+
   .caracteristicas {
-    margin: 0% 10% 0% 0%; }
+    margin: 0% 10% 0% 0%;
+  }
+
   .producto {
-    margin: 5vh; }
+    margin: 5vh;
+  }
+
   /* PAGINA DE INSTALACIONES */
   .mapa iframe {
     width: 150vh;
-    margin: 0px 0px 0px 15px; }
+    margin: 0px 0px 0px 15px;
+  }
+
   .maquinas img {
     width: 65vh;
-    margin: 0vh 0vh 3vh 45vh; }
+    margin: 0vh 0vh 3vh 45vh;
+  }
+
   .carousel-item img {
     height: 50vh;
-    object-fit: cover; } }
+    object-fit: cover;
+  }
+}
 
 @media (min-width: 1200px) {
+
   /* PAGINA DE INSTALACIONES */
   .mapa iframe {
     width: 100vh;
-    margin: 0px 0px 0px 30px; }
+    margin: 0px 0px 0px 30px;
+  }
+
   .maquinas img {
     width: 70vh;
-    margin: 0vh 0vh 3vh 55vh; }
+    margin: 0vh 0vh 3vh 55vh;
+  }
+
   .carousel-item img {
     height: 50vh;
-    object-fit: cover; } }
+    object-fit: cover;
+  }
+
+  /* pagina de productos */
+  .producto1 p {
+    display: block;
+    margin: 0% 0% 0% 0% ;
+    padding: 0% 40%;
+  }
+
+  .producto1 button {
+    margin: 15% 0% 0% 30%;
+    position: absolute;
+    background-color: rgb(233, 211, 12);
+    color: black;
+    border-radius: 0% 20%;
+  }
+
+  .producto2 {
+    background-color: rgb(160, 8, 8);
+    border-radius: 15% 0%;
+    margin: 30px 0px;
+    padding: auto;
+  }
+
+  .producto2 img {
+    margin: 0px 0px 0px 50px;
+  }
+
+  .producto2 button {
+    margin: 15% 0% 0% 45%;
+    position: absolute;
+    background-color: rgb(233, 211, 12);
+    color: black;
+    border-radius: 20% 0%;
+  }
+
+  .producto3 {
+    background-color:rgb(160, 8, 8);
+    border-radius: 0% 20%;
+    margin: 30px 0px;
+    padding: auto;
+  }
+
+  .producto3 button {
+    margin: 15% 0% 0% 30%;
+    position: absolute;
+    background-color: rgb(233, 211, 12);
+    color: black;
+    border-radius: 0% 20%;
+  }
+
+  .acordeon-item{
+    margin: 0% 0% 0% 0%;
+  }
+
+}
