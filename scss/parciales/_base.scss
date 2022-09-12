@@ -22,9 +22,18 @@ header {
     margin: 2%;
 }
 
-.menu {
-    display: grid;
-    grid-template-columns: auto auto;
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color:rgb(161, 13, 13);
 }
 
 .arriba {
